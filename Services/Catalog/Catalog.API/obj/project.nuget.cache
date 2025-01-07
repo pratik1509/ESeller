@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ti8WDUoxOBI=",
+  "success": true,
+  "projectFilePath": "/Users/pratik/Projects/ESeller/Services/Catalog/Catalog.API/Catalog.API.csproj",
+  "expectedPackageFiles": [
+    "/Users/pratik/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/Users/pratik/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+  ],
+  "logs": []
+}
