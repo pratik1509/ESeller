@@ -1,10 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "ti8WDUoxOBI=",
+  "dgSpecHash": "mZbSZZ7SLlE=",
   "success": true,
   "projectFilePath": "/Users/pratik/Projects/ESeller/Services/Catalog/Catalog.API/Catalog.API.csproj",
   "expectedPackageFiles": [
+    "/Users/pratik/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
+    "/Users/pratik/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/pratik/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/Users/pratik/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
     "/Users/pratik/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
   ],
   "logs": []

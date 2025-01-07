@@ -32,3 +32,5 @@
 /Users/pratik/Projects/ESeller/Services/Catalog/Catalog.API/obj/Debug/net9.0/Catalog.API.pdb
 /Users/pratik/Projects/ESeller/Services/Catalog/Catalog.API/obj/Debug/net9.0/Catalog.API.genruntimeconfig.cache
 /Users/pratik/Projects/ESeller/Services/Catalog/Catalog.API/obj/Debug/net9.0/ref/Catalog.API.dll
+/Users/pratik/Projects/ESeller/Services/Catalog/Catalog.API/bin/Debug/net9.0/MediatR.dll
+/Users/pratik/Projects/ESeller/Services/Catalog/Catalog.API/bin/Debug/net9.0/MediatR.Contracts.dll
