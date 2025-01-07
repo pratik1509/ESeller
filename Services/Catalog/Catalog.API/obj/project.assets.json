@@ -79,6 +79,19 @@
             "related": ".pdb;.xml"
           }
         }
+      },
+      "BuildingBlocks/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "dependencies": {
+          "MediatR": "12.4.1"
+        },
+        "compile": {
+          "bin/placeholder/BuildingBlocks.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BuildingBlocks.dll": {}
+        }
       }
     }
   },
@@ -176,11 +189,16 @@
         "microsoft.openapi.1.6.17.nupkg.sha512",
         "microsoft.openapi.nuspec"
       ]
+    },
+    "BuildingBlocks/1.0.0": {
+      "type": "project",
+      "path": "../../../BuildingBlocks/BuildingBlocks.csproj",
+      "msbuildProject": "../../../BuildingBlocks/BuildingBlocks.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
-      "MediatR >= 12.4.1",
+      "BuildingBlocks >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 9.0.0"
     ]
   },
@@ -208,7 +226,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/pratik/Projects/ESeller/BuildingBlocks/BuildingBlocks.csproj": {
+              "projectPath": "/Users/pratik/Projects/ESeller/BuildingBlocks/BuildingBlocks.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -227,10 +249,6 @@
       "net9.0": {
         "targetAlias": "net9.0",
         "dependencies": {
-          "MediatR": {
-            "target": "Package",
-            "version": "[12.4.1, )"
-          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[9.0.0, )"
