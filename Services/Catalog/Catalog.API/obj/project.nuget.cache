@@ -1,14 +1,25 @@
 {
   "version": 2,
-  "dgSpecHash": "NJo7Pxu4wF0=",
+  "dgSpecHash": "xdOc+MiTvv4=",
   "success": true,
   "projectFilePath": "/Users/pratik/Projects/ESeller/Services/Catalog/Catalog.API/Catalog.API.csproj",
   "expectedPackageFiles": [
+    "/Users/pratik/.nuget/packages/carter/9.0.0/carter.9.0.0.nupkg.sha512",
+    "/Users/pratik/.nuget/packages/carter.analyzers/9.0.0/carter.analyzers.9.0.0.nupkg.sha512",
+    "/Users/pratik/.nuget/packages/fluentvalidation/11.11.0/fluentvalidation.11.11.0.nupkg.sha512",
+    "/Users/pratik/.nuget/packages/mapster/7.4.0/mapster.7.4.0.nupkg.sha512",
+    "/Users/pratik/.nuget/packages/mapster.core/1.2.1/mapster.core.1.2.1.nupkg.sha512",
     "/Users/pratik/.nuget/packages/mediatr/12.4.1/mediatr.12.4.1.nupkg.sha512",
     "/Users/pratik/.nuget/packages/mediatr.contracts/2.0.1/mediatr.contracts.2.0.1.nupkg.sha512",
     "/Users/pratik/.nuget/packages/microsoft.aspnetcore.openapi/9.0.0/microsoft.aspnetcore.openapi.9.0.0.nupkg.sha512",
+    "/Users/pratik/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.4/microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
+    "/Users/pratik/.nuget/packages/microsoft.codeanalysis.common/4.11.0/microsoft.codeanalysis.common.4.11.0.nupkg.sha512",
+    "/Users/pratik/.nuget/packages/microsoft.codeanalysis.csharp/4.11.0/microsoft.codeanalysis.csharp.4.11.0.nupkg.sha512",
     "/Users/pratik/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.0/microsoft.extensions.dependencyinjection.abstractions.8.0.0.nupkg.sha512",
-    "/Users/pratik/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512"
+    "/Users/pratik/.nuget/packages/microsoft.extensions.dependencymodel/9.0.0/microsoft.extensions.dependencymodel.9.0.0.nupkg.sha512",
+    "/Users/pratik/.nuget/packages/microsoft.openapi/1.6.17/microsoft.openapi.1.6.17.nupkg.sha512",
+    "/Users/pratik/.nuget/packages/system.collections.immutable/8.0.0/system.collections.immutable.8.0.0.nupkg.sha512",
+    "/Users/pratik/.nuget/packages/system.reflection.metadata/8.0.0/system.reflection.metadata.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -4,7 +4,7 @@ using Catalog.API.Models;
 namespace Catalog.API.Products.CreateProduct
 {
     public record CreateProductCommand(string Name, List<string> Category, string Description, string ImageFile, decimal Price) : ICommand<CreateProductResult>;
-    public record CreateProductResult(Guid id);
+    public record CreateProductResult(Guid Id);
 
     internal class CreateProductCommandHandler : ICommandHandler<CreateProductCommand, CreateProductResult>
     {
@@ -19,7 +19,7 @@ namespace Catalog.API.Products.CreateProduct
                 Price = command.Price
             };
 
-            return new CreateProductResult(new Guid());
+            return new CreateProductResult(Guid.NewGuid());
         }
     }
 }
